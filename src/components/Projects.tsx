@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, ShoppingCart, Brain, Shield, User } from "lucide-react";
+import { ExternalLink, Github, ShoppingCart, Brain, Shield, User, Code } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -48,6 +48,72 @@ const Projects = () => {
         github: "#",
         demo: "#"
       }
+    },
+    {
+      icon: <Brain className="w-6 h-6" />,
+      title: "Smart Study Assistant",
+      description: "AI-powered study companion that helps students organize notes, create flashcards, and track learning progress with personalized recommendations.",
+      technologies: ["Python", "OpenAI API", "React", "SQLite"],
+      status: "In Progress",
+      links: {
+        github: "#",
+        demo: "#"
+      }
+    },
+    {
+      icon: <Shield className="w-6 h-6" />,
+      title: "Password Manager",
+      description: "Secure password management application with encryption, biometric authentication, and cross-platform synchronization for personal and team use.",
+      technologies: ["Electron", "Node.js", "AES Encryption", "SQLite"],
+      status: "Completed",
+      links: {
+        github: "#",
+        demo: "#"
+      }
+    },
+    {
+      icon: <Code className="w-6 h-6" />,
+      title: "Code Snippet Manager",
+      description: "Developer tool for organizing, searching, and sharing code snippets with syntax highlighting, tags, and team collaboration features.",
+      technologies: ["Vue.js", "Express.js", "PostgreSQL", "Prism.js"],
+      status: "Completed",
+      links: {
+        github: "#",
+        demo: "#"
+      }
+    },
+    {
+      icon: <Brain className="w-6 h-6" />,
+      title: "Weather Prediction AI",
+      description: "Machine learning model that predicts local weather patterns using historical data and real-time meteorological inputs with 85% accuracy.",
+      technologies: ["Python", "Keras", "Weather API", "Matplotlib"],
+      status: "Completed",
+      links: {
+        github: "#",
+        demo: "#"
+      }
+    },
+    {
+      icon: <User className="w-6 h-6" />,
+      title: "Student Portal System",
+      description: "Comprehensive school management system for students to access grades, assignments, schedules, and communicate with teachers and peers.",
+      technologies: ["Laravel", "PHP", "MySQL", "Bootstrap"],
+      status: "In Progress",
+      links: {
+        github: "#",
+        demo: "#"
+      }
+    },
+    {
+      icon: <Shield className="w-6 h-6" />,
+      title: "Network Security Scanner",
+      description: "Automated network vulnerability scanner that identifies security weaknesses and provides detailed reports with remediation suggestions.",
+      technologies: ["Python", "Nmap", "Scapy", "Django"],
+      status: "Completed",
+      links: {
+        github: "#",
+        demo: "#"
+      }
     }
   ];
 
@@ -56,7 +122,7 @@ const Projects = () => {
       <div className="container mx-auto max-w-6xl">
         <h2 className="section-heading text-center">Featured Projects</h2>
         
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <Card key={index} className="project-card group">
               <CardHeader>
