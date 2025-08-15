@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# NIYOBYOSE Isaac Precieux – Personal Portfolio
 
-## Project info
+Hello! I’m **NIYOBYOSE Isaac Precieux**, a student at **Rwanda Coding Academy** (2024 – present). I’m passionate about software development, artificial intelligence, and cybersecurity. Over time, I’ve explored multiple programming languages and frameworks, and I actively participate in competitions, clubs, and tech communities.
 
-**URL**: https://lovable.dev/projects/8ac2408b-6b40-401e-add3-e627883a1b2f
+---
 
-## How can I edit this code?
+## 🌟 About Me
 
-There are several ways of editing your application.
+- **Education**: Rwanda Coding Academy, 2024 – present
+- **Interests**: AI research, cybersecurity, software development, UI/UX design
+- **Clubs & Activities**:
+  - Cybersecurity Club
+  - Debating Club
+  - Ilead Program (sports & leadership)
+- **Competitions & Hackathons**:
+  - RCA Hackathon 2024
+  - e_15th Icon Contest
+  - PicoCTF 2025
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ac2408b-6b40-401e-add3-e627883a1b2f) and start prompting.
+## 💻 Technical Skills
 
-Changes made via Lovable will be committed automatically to this repo.
+### Programming Languages & Frameworks
+HTML, CSS, JavaScript, TypeScript, ReactJS, NextJS, NodeJS, Java, Python, C, C++, Solidity, Django, Flask, React Native, Bash, TensorFlow, PyTorch
 
-**Use your preferred IDE**
+### Tools & Design
+Figma, Adobe Photoshop, Adobe XD, Git/GitHub, LinkedIn, Discord, Instagram, Facebook
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Cybersecurity Focus
+Cryptography, ethical hacking basics, network security
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Projects
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+I’ve worked on numerous projects spanning web development, mobile apps, AI models, and cybersecurity exercises. Most of my projects are available on **[GitHub](https://github.com/niyobyose)**.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Some highlights:
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **AI-based Attendance Tracker** – Uses AI for student attendance recognition.
+2. **Waste Classification App** – Classifies images into biodegradable, recyclable, and non-recyclable categories using machine learning.
+3. **Student Management System** – Full-stack CRUD app for academic institutions.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+*(More projects available on my GitHub profile)*
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 Connect With Me
 
-**Use GitHub Codespaces**
+- **LinkedIn**: [https://www.linkedin.com/in/niyobyose-isaac-precieux](https://www.linkedin.com/in/niyobyose-isaac-precieux)  
+- **GitHub**: [https://github.com/niyobyose](https://github.com/niyobyose)  
+- **Instagram**: [https://www.instagram.com/niyobyose](https://www.instagram.com/niyobyose)  
+- **Discord**: NIYOBYOSE#XXXX  
+- **Facebook**: [https://www.facebook.com/niyobyose](https://www.facebook.com/niyobyose)  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🏆 Achievements
 
-This project is built with:
+- Successfully participated in multiple coding competitions and hackathons.
+- Built projects across more than 10 programming languages.
+- Active member of cybersecurity and debating clubs.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📚 Learning Focus
 
-Simply open [Lovable](https://lovable.dev/projects/8ac2408b-6b40-401e-add3-e627883a1b2f) and click on Share -> Publish.
+Currently, I’m deepening my knowledge in:
 
-## Can I connect a custom domain to my Lovable project?
+- Artificial Intelligence & Machine Learning
+- Predictive modeling and AI agent comparisons
+- Cybersecurity with focus on cryptography and ethical hacking
+- Full-stack development with modern frameworks
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Thank you for visiting my portfolio! Feel free to connect with me or check out my projects.
