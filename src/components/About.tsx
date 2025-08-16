@@ -36,7 +36,7 @@ const About = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6 text-foreground">Profile Summary</h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Motivated and tech-driven Senior Four student at{" "}
+              Motivated and tech-driven Senior Five student at{" "}
               <span className="text-primary font-semibold">Rwanda Coding Academy</span> with 
               experience in over 10 programming languages and a strong passion for{" "}
               <span className="text-primary font-semibold">Artificial Intelligence</span>.

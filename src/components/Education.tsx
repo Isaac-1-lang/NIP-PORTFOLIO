@@ -43,7 +43,34 @@ const Education = () => {
                   <GraduationCap className="w-6 h-6 text-primary" />
                   <div>
                     <CardTitle className="text-xl">Rwanda Coding Academy</CardTitle>
-                    <p className="text-muted-foreground">Senior Four • 2024 – Present</p>
+                    <p className="text-muted-foreground">Senior Five • 09/2025 – 06/2026</p>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Specializing in <span className="text-primary font-semibold">Software Development</span> and{" "}
+                  <span className="text-primary font-semibold">Embedded Software</span>.
+                </p>
+                <div className="mb-4">
+                  <h4 className="font-semibold mb-2 text-foreground">Coursework includes:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {["Algorithms", "AI Concepts", "Block Chain", "Databases", "Cybersecurity","Mathematics","Physics"].map((course, index) => (
+                      <span key={index} className="skill-badge text-xs">
+                        {course}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="project-card mb-8">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <GraduationCap className="w-6 h-6 text-primary" />
+                  <div>
+                    <CardTitle className="text-xl">Rwanda Coding Academy</CardTitle>
+                    <p className="text-muted-foreground">Senior Four • 09/2024 – 06/2025</p>
                   </div>
                 </div>
               </CardHeader>
@@ -55,7 +82,34 @@ const Education = () => {
                 <div className="mb-4">
                   <h4 className="font-semibold mb-2 text-foreground">Coursework includes:</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["Algorithms", "AI Concepts", "Web Development", "Databases", "Cybersecurity"].map((course, index) => (
+                    {["Algorithms", "AI Concepts", "Web Development", "Databases", "Cybersecurity","Embedded Hardware","Mathematics","Physics"].map((course, index) => (
+                      <span key={index} className="skill-badge text-xs">
+                        {course}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="project-card mb-8">
+              <CardHeader>
+                <div className="flex items-center gap-3">
+                  <GraduationCap className="w-6 h-6 text-primary" />
+                  <div>
+                    <CardTitle className="text-xl">G.S Saint Pierre Nkombo</CardTitle>
+                    <p className="text-muted-foreground">S1-S3 • 09/2021 – 07/2024</p>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Specializing in <span className="text-primary font-semibold">Mathematics,History,Geography,Languages</span> and{" "}
+                  <span className="text-primary font-semibold">Sciences</span>.
+                </p>
+                <div className="mb-4">
+                  <h4 className="font-semibold mb-2 text-foreground">Coursework includes:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {["Physics", "Cheminstry", "Biology", "English", "French","Kiswahili"].map((course, index) => (
                       <span key={index} className="skill-badge text-xs">
                         {course}
                       </span>

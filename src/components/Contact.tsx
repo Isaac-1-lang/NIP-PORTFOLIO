@@ -2,21 +2,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send, Instagram } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "isaprecieux112@gmail.com",
+      href: "mailto:isaprecieux112@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "your phone number",
-      href: "tel:+250123456789"
+      value: "+250 798 826 507",
+      href: "tel:+250798826507"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
@@ -30,12 +30,22 @@ const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      href: "https://github.com/yourusername"
+      href: "https://github.com/Isaac-1-lang"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername"
+      href: "https://linkedin.com/in/NIYOBYOSE Isaac Precieux"
+    },
+    {
+      icon: <Mail className="w-5 h-5" />,
+      label: "Email",
+      href: "mailto:isaprecieux112@gmail.com"
+      },
+    {
+      icon:<Instagram className="w-5 h-5" />,
+      label:"Instagram",
+      href:"https://instagram.com/isaacniyo78"
     }
   ];
 
@@ -102,7 +112,7 @@ const Contact = () => {
                       First Name
                     </label>
                     <Input 
-                      placeholder="John"
+                      placeholder="NIYOBYOSE"
                       className="bg-background border-border focus:border-primary"
                     />
                   </div>
@@ -111,7 +121,7 @@ const Contact = () => {
                       Last Name
                     </label>
                     <Input 
-                      placeholder="Doe"
+                      placeholder="Isaac"
                       className="bg-background border-border focus:border-primary"
                     />
                   </div>
@@ -123,7 +133,7 @@ const Contact = () => {
                   </label>
                   <Input 
                     type="email"
-                    placeholder="john.doe@example.com"
+                    placeholder="isaprecieux112@gmail.com"
                     className="bg-background border-border focus:border-primary"
                   />
                 </div>

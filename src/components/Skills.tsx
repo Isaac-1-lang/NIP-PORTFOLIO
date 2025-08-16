@@ -8,7 +8,7 @@ const Skills = () => {
       title: "Programming Languages",
       skills: [
         "Python", "JavaScript", "Java", "C", "C++", "PHP", 
-        "HTML/CSS", "SQL", "Go", "Dart", "Kotlin"
+        "HTML/CSS", "SQL", "NoSQL", "React Native","Solidity"
       ]
     },
     {
@@ -24,7 +24,7 @@ const Skills = () => {
       title: "Tools & Platforms",
       skills: [
         "GitHub", "VS Code", "Figma", "Firebase", "Node.js", 
-        "React", "Flutter", "API Integration"
+        "React", "Gitlab", "API Integration","Android Studio","Adobe XD"
       ]
     },
     {

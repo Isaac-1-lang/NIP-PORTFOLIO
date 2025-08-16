@@ -9,29 +9,29 @@ const Projects = () => {
       icon: <ShoppingCart className="w-6 h-6" />,
       title: "E-commerce Platform",
       description: "Built a comprehensive product catalog with color/size variants, user authentication, and shopping cart functionality. Features include product search, filtering, and secure checkout process.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      status: "Completed",
+      technologies: ["Nextjs", "Java", "PostgreSQL", "Stripe API"],
+      status: "In Progress",
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/Isaac-1-lang/Ecommerce_Services",
+        demo: "https://ecommerce-services111.vercel.app/"
       }
     },
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "AI-based Prediction Model",
-      description: "Designed and implemented a machine learning model for data-based predictions. Includes data preprocessing, model training, and performance evaluation with visualization dashboard.",
-      technologies: ["Python", "TensorFlow", "Pandas", "Scikit-learn"],
+      title: "AI-based Waste Classifier Model",
+      description: "Designed to help people know how to differentiate different kinds of wastes namely biodegradable,non-biodegradable and about recyclability.",
+      technologies: ["Python", "Pytorch", "React Native", "Scikit-learn"],
       status: "In Progress",
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/Isaac-1-lang/Waste_Classifier_Modal",
+        demo: ""
       }
     },
     {
       icon: <Shield className="w-6 h-6" />,
       title: "Cybersecurity Awareness App",
       description: "Educational mobile application promoting safe online practices for students. Features interactive quizzes, security tips, and real-time threat awareness updates.",
-      technologies: ["Flutter", "Dart", "Firebase", "Node.js"],
+      technologies: ["React Native", "Nextjs", "Firebase", "Node.js"],
       status: "Completed",
       links: {
         github: "#",

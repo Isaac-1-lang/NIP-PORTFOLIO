@@ -45,11 +45,11 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-primary" />
-              your.email@example.com
+              isaprecieux112@gmail.com
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-primary" />
-              your phone number
+              +250 798 826 507
             </div>
           </div>
 
@@ -74,10 +74,10 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center gap-6">
-            <a href="https://github.com/yourusername" className="text-muted-foreground hover:text-primary tech-transition">
+            <a href="https://github.com/Isaac-1-lang" className="text-muted-foreground hover:text-primary tech-transition">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" className="text-muted-foreground hover:text-primary tech-transition">
+            <a href="https://linkedin.com/in/NIYOBYOSE Isaac Precieux" className="text-muted-foreground hover:text-primary tech-transition">
               <Linkedin className="w-6 h-6" />
             </a>
           </div>
