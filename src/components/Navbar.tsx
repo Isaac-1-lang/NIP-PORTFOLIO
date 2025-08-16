@@ -11,7 +11,8 @@ const Navbar = () => {
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
     { href: "#education", label: "Education" },
-    { href: "#contact", label: "Contact" }
+    { href: "#contact", label: "Contact" },
+    { href:"#competitions",label:"Competitions"}
   ];
 
   useEffect(() => {
