@@ -43,10 +43,10 @@ const Projects = () => {
       title: "Personal Portfolio Website",
       description: "Modern, responsive portfolio website showcasing skills, projects, and professional experience. Built with modern web technologies and optimized for performance.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      status: "Completed",
+      status: "In Progrss",
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/Isaac-1-lang/NIP-PORTFOLIO",
+        demo: "https://nip-portfolio.vercel.app/"
       }
     },
     {
