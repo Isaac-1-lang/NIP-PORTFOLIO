@@ -24,7 +24,7 @@ const Skills = () => {
       title: "Tools & Platforms",
       skills: [
         "GitHub", "VS Code", "Figma", "Firebase", "Node.js", 
-        "React", "Gitlab", "API Integration","Android Studio","Adobe XD"
+        "React", "Gitlab", "API Integration","Android Studio","Adobe XD","Photoshop"
       ]
     },
     {

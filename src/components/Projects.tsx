@@ -29,10 +29,10 @@ const Projects = () => {
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Cybersecurity Awareness App",
-      description: "Educational mobile application promoting safe online practices for students. Features interactive quizzes, security tips, and real-time threat awareness updates.",
-      technologies: ["React Native", "Nextjs", "Firebase", "Node.js"],
-      status: "Completed",
+      title: "Ngwino",
+      description: "It is an app which helps people how took loans to pay them without taking much risks",
+      technologies: ["Java Script", "Django", "CSS", "HTML"],
+      status: "In progress",
       links: {
         github: "#",
         demo: "#"
@@ -51,9 +51,9 @@ const Projects = () => {
     },
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "Smart Study Assistant",
-      description: "AI-powered study companion that helps students organize notes, create flashcards, and track learning progress with personalized recommendations.",
-      technologies: ["Python", "OpenAI API", "React", "SQLite"],
+      title: "GreenIQ",
+      description: "It is a cross platform mobile app which helps citizens to know how to use products in environment-friendly way and how to dispose wastes in an environmental way.",
+      technologies: ["Python", "React Native", "HTML/CSS", "Mongodb"],
       status: "In Progress",
       links: {
         github: "#",
@@ -62,9 +62,9 @@ const Projects = () => {
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Password Manager",
-      description: "Secure password management application with encryption, biometric authentication, and cross-platform synchronization for personal and team use.",
-      technologies: ["Electron", "Node.js", "AES Encryption", "SQLite"],
+      title: "GreenStack",
+      description: "It is an ecommerce platform which is opensource to all shopkeepers to manage their products at any scale.",
+      technologies: ["Tailwindcss", "Node.js", "Mongodb", "ReactJs"],
       status: "Completed",
       links: {
         github: "#",
@@ -73,10 +73,10 @@ const Projects = () => {
     },
     {
       icon: <Code className="w-6 h-6" />,
-      title: "Code Snippet Manager",
-      description: "Developer tool for organizing, searching, and sharing code snippets with syntax highlighting, tags, and team collaboration features.",
-      technologies: ["Vue.js", "Express.js", "PostgreSQL", "Prism.js"],
-      status: "Completed",
+      title: "Ciphera",
+      description: "It is a web based extension which helps to prevent real time exposition of sensitive data to the AI agents used in the Web.",
+      technologies: ["Reactjs", "Express.js", "MongoDB", "Chart.js"],
+      status: "In progress",
       links: {
         github: "#",
         demo: "#"
@@ -84,9 +84,9 @@ const Projects = () => {
     },
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "Weather Prediction AI",
-      description: "Machine learning model that predicts local weather patterns using historical data and real-time meteorological inputs with 85% accuracy.",
-      technologies: ["Python", "Keras", "Weather API", "Matplotlib"],
+      title: "Harvest Prediction AI",
+      description: "This is a web based modal which can help farmers to predict the future harvestes based on the past results for good preparation.",
+      technologies: ["Python", "Keras", "Weather API", "Matplotlib","Tensorflow"],
       status: "Completed",
       links: {
         github: "#",
